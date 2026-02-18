@@ -38,7 +38,7 @@ def generate_tile_data(
     
     # transform the right ascention values to fall between 110 and -100 degrees 
     ra = np.array(ra)
-    ra = (ra - 150)%360 + 150 - 360
+    ra = (ra - 290)%360 + 290 - 360
     
     # declination coordinates of tiles for the 2021-09-22 DESI observing plan
     declination = [
